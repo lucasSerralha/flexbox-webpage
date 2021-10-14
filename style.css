@@ -152,3 +152,55 @@ a {
     font-style: bold;
 
 }
+
+.block5 {
+    justify-content: center;
+    display: flex;
+    height: 300px;
+}
+
+.block5-box {
+    display: flex;
+    margin: 50px;
+    width: 920px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up {
+    color: white;
+    font-size: 18px;
+}
+
+.block5-box-button {
+    margin-left: 150px;
+    color: white;
+    font-size: 18px;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 12px;
+}
