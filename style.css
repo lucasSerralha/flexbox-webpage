@@ -117,6 +117,8 @@ a {
 .block4 {
     min-height: 250px;
     background-color: #b8b8b8;
+    justify-content: center;
+    align-items: center;
 }
 
 .block4-child1 {
@@ -136,21 +138,23 @@ a {
 }
 
 .block4-child2 {
+    padding-top: 25px;
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
+.author-box{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    width: 800px;
 }
 
 #author {
     font-family: arial;
-    width: 900px;
     font-size: 24px;
     font-style: bold;
-
 }
 
 .block5 {
